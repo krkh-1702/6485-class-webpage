@@ -11,6 +11,35 @@ html {
     font-family: 'Epilogue', sans-serif;
 }
 
+a:hover {
+    color: rgb(153, 153, 153);
+}
+
+/*DIVISION INTO TWO SCREENS*/
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-half {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 1rem;
+}
+
+/* End of DIVISION INTO TWO SCREENS */
+
 .navbar-padding {
     padding-top: 25px;
 }
@@ -151,13 +180,13 @@ html {
 }
 
 .title_02 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: rgb(0, 0, 0);
 }
 
 .title_03 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(105, 105, 105);
 }
