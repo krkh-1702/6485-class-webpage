@@ -1,7 +1,6 @@
 body,
 html {
     background-color: #ffffff;
-
     /* removes horizontal scrollbar */
     overflow-x: hidden;
 }
@@ -89,19 +88,6 @@ html {
     margin-bottom: 50px;
 }
 
-/*
-    .left_column {
-      flex: 50%;
-      justify-content: center;
-    }
-  
-    /*
-    .right_column {
-      flex: 50%;
-      justify-content: center;
-    }
-    */
-
 .left_column {
     width: 50%;
     padding-left: 50px;
@@ -177,15 +163,6 @@ html {
     width: 80%;
 }
 
-/*
-  .body_image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-  */
-
 .row_image {
     display: flex;
     position: relative;
@@ -213,6 +190,7 @@ html {
 
 .video_frame {
     margin: 10px;
+    width: 60%;
 }
 
 .image_small {
