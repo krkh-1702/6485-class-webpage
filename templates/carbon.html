@@ -59,9 +59,12 @@
 
     <div class="header row text-center">
         <!--<iframe class="comp_video" src="https://www.youtube.com/embed/I4Gy2J9Fe10" style="width: 80%;" allow="autoplay"
-            loop></iframe>-->
-        <video src="../assets/static/carbon_literacy/Carbon webapp_1.mp4" style="width: 80%;" allow="autoplay"
-            loop></video>
+            loop></iframe>
+        <video class="comp_video" src="../assets/static/carbon_literacy/Carbon webapp_1.mp4" style="width: 80%;"
+            allow="autoplay" loop></video>-->
+        <video class="video_frame comp_video" autoplay controls muted style="width: 80%;">
+            <source src="../assets/static/carbon_literacy/Carbon webapp_1.mp4" type="video/mp4" loop>
+        </video>
     </div>
     <br> <br>
 
@@ -116,12 +119,16 @@
         <img src="../assets/static/carbon_literacy/classification.jpg" width="60%" alt="">
     </center>
 
-    <div class="row">
-        <video class="video_frame" autoplay>
-            <source src="../assets/static/carbon_literacy/img_to_seg_1.mp4" type="video/mp4" loop>
-        </video>
-        <video class="video_frame" autoplay>
-            <source src="../assets/static/carbon_literacy/seg_to_img_1.mp4" type="video/mp4" loop>
+
+    <div class="container mt-2">
+        <div class="d-flex justify-content-between">
+            <div class="p-2 offset-md-1"><video class="video_frame" autoplay>
+                    <source src="../assets/static/carbon_literacy/img_to_seg_1.mp4" type="video/mp4" loop>
+                </video></div>
+            <div class="p-2"> <video class="video_frame" autoplay>
+                    <source src="../assets/static/carbon_literacy/seg_to_img_1.mp4" type="video/mp4" loop>
+                </video></div>
+        </div>
     </div>
 
     <center>
@@ -129,13 +136,30 @@
         <img src="../assets/static/carbon_literacy/style_transfer.jpg" width="60%" alt="">
     </center>
 
-    <div class="row">
-        <video class="video_frame" autoplay>
-            <source src="../assets/static/carbon_literacy/styleGAN1.mp4" type="video/mp4" loop>
-        </video>
-        <video class="video_frame" autoplay>
-            <source src="../assets/static/carbon_literacy/styleGAN2.mp4" type="video/mp4" loop>
+    <div class="container mt-2">
+        <div class="d-flex justify-content-between">
+            <div class="p-2 offset-md-1"><video class="video_frame" autoplay>
+                    <source src="../assets/static/carbon_literacy/styleGAN1.mp4" type="video/mp4" loop>
+                </video></div>
+            <div class="p-2"> <video class="video_frame" autoplay>
+                    <source src="../assets/static/carbon_literacy/styleGAN2.mp4" type="video/mp4" loop>
+                </video></div>
+        </div>
     </div>
+
+    <!--
+        <div class="col-sm-6 ">
+            <video class="video_frame" autoplay>
+                <source src="../assets/static/carbon_literacy/styleGAN1.mp4" type="video/mp4" loop>
+            </video>
+        </div>
+        <div class="col-sm-6 ">
+            <video class="video_frame" autoplay>
+                <source src="../assets/static/carbon_literacy/styleGAN2.mp4" type="video/mp4" loop>
+            </video>
+        </div>
+       
+    </div>  -->
 
     <!--
     <div class="row">
