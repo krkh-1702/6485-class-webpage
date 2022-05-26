@@ -155,7 +155,7 @@ html {
     text-decoration: underline;
 }
 
-.cover_image {
+.cover_img {
     position: relative;
     display: block;
     margin-left: auto;
@@ -163,7 +163,7 @@ html {
     width: 80%;
 }
 
-.row_image {
+.row_img {
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -188,9 +188,27 @@ html {
     width: 40%;
 }
 
+.img_margin {
+    margin-top: 20px;
+}
+
 .video_frame {
     margin: 10px;
     width: 60%;
+}
+
+.column_img {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .image_small {
